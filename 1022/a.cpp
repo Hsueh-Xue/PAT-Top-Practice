@@ -56,6 +56,7 @@ int main() {
 	vec.resize(n + 1);
 	for (int i = 1; i <= n; ++i) {
 		cin >> vec[i];
+		id[i] = 1;
 	}
 	vector<int> wolf;
 	gao(wolf);

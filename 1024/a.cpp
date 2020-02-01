@@ -50,7 +50,7 @@ int main() {
 	cin.tie(0), cout.tie(0);
 	
 	cin >> n >> m;
-	for (int i = 1; i <= n; ++i) fa[i] = i;
+	for (int i = 0; i <= n; ++i) fa[i] = i;
 	priority_queue<Edge> pq;
 	for (int i = 1; i <= m; ++i) {
 		e[i].input();

@@ -125,6 +125,7 @@ int main() {
 	int root;
 	if (tot > 1 || !gao(root, 1, n, 1, n, 1, n)) cout << "Impossible" << endl;
 	else {
+		for (int i = 1; i <= n; ++i) if (!v[i]) v[i] = res;
 		f = 0; in(root); cout << endl;
 		f = 0; pre(root); cout << endl;
 		f = 0; post(root); cout << endl;
